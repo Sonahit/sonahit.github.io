@@ -1,0 +1,53 @@
+@import "./footer/footer.css";
+@import "./header/header.css";
+@import "./main/main.css";
+@import "./nav/nav.css";
+@import "./popup-menu/popup-menu.css";
+@import "./modal/modal.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #353436;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    float: left;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.ic {
+  height: 20px;
+  width: 20px;
+  padding-left: 20px;
+}
+
+.important {
+  border-bottom: 1px #353436 solid;
+}
+.transparent {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .ic {
+    height: 40px;
+    width: 40px;
+  }
+}

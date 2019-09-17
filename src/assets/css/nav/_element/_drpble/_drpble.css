@@ -1,0 +1,16 @@
+.nav_element_drpble {
+  font-weight: normal;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: azure;
+  border-bottom-width: 1px;
+}
+
+.nav_element_drpble:last-child {
+  border-bottom: none;
+}
+
+.nav_element_drpble:hover {
+  color: #e0d2ad;
+}

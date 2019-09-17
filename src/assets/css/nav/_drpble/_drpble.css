@@ -1,0 +1,12 @@
+.nav_drpble {
+  position: relative;
+}
+
+.nav_drpble:hover .nav_container_drpble {
+  display: block;
+}
+
+.nav_link.nav_drpble .nav_container::after {
+  content: "\25bc";
+  font-size: 8px;
+}

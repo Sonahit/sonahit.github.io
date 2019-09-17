@@ -1,0 +1,29 @@
+.footer_langs {
+  padding-left: 20px;
+}
+
+.footer_lang:last-child::before,
+.footer_lang:last-child::after {
+  content: "";
+}
+
+.footer_lang::after {
+  content: "|";
+}
+
+.footer_lang::after {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer_langs {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_langs {
+    padding-top: 20px;
+  }
+}

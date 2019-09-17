@@ -1,0 +1,22 @@
+.popup-menu_element:nth-child(1),
+.popup-menu_element:nth-child(2),
+.popup-menu_element:nth-child(3) {
+  font-size: 16px;
+  width: 33.33333%;
+  padding-bottom: 10px;
+}
+
+.popup-menu_element:nth-child(1) {
+  color: black;
+  background-color: #e2d1a6;
+}
+
+.popup-menu_element:nth-child(2) {
+  color: black;
+  background-color: aliceblue;
+}
+
+.popup-menu_element:nth-child(3) {
+  color: white;
+  background-color: black;
+}

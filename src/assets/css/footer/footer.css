@@ -1,0 +1,17 @@
+@import "./_contact/_contact.css";
+@import "./_info/_info.css";
+@import "./_form/_form.css";
+@import "./_element--footer/_element--footer.css";
+@import "./_tab/_tab.css";
+@import "./_langs/_langs.css";
+
+footer {
+  height: auto;
+  position: relative;
+  background: inherit;
+  display: flex;
+  flex-direction: row;
+  flex: 2 1 auto;
+  bottom: 0;
+  z-index: 10;
+}

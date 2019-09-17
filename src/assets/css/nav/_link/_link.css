@@ -1,0 +1,22 @@
+.nav_link {
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_link {
+    padding: 0px 0px 0px 10px;
+  }
+}
+
+.nav_link a:hover,
+.nav_link a:focus {
+  color: #e0d2ad !important;
+  font-weight: bold;
+}
+
+.nav_link a:link,
+.nav_link a:visited {
+  color: white;
+  text-decoration: none;
+}

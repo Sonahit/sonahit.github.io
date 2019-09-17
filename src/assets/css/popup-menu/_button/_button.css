@@ -1,0 +1,31 @@
+.popup-menu_button {
+  display: flex;
+  justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  height: 30px;
+  width: 100px;
+
+  position: absolute;
+  transform: translate(-50%, -100%) scaleY(-1);
+  -o-transform: translate(-50%, -100%) scaleY(-1);
+  -moz-transform: translate(-50%, -100%) scaleY(-1);
+  -webkit-transform: translate(-50%, -100%) scaleY(-1);
+  -ms-transform: translate(-50%, -100%) scaleY(-1);
+  left: 50%;
+
+  background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png);
+  -o-background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png);
+  -moz-background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png);
+  -webkit-background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png);
+  -ms-background-image: url(http://www.pngmart.com/files/3/Down-Arrow-PNG-Clipart.png);
+  background-size: 100px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: white;
+  font-size: 40px;
+  cursor: pointer;
+}

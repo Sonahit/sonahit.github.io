@@ -1,0 +1,11 @@
+.modal_exit {
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  right: 1%;
+  cursor: pointer;
+}
+
+.modal_exit:hover {
+  color: #d83e3e;
+}

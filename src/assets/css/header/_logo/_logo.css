@@ -1,0 +1,12 @@
+@import "./_name/_name.css";
+
+.header_logo {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -o-align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+}

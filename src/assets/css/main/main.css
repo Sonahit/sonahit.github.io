@@ -1,0 +1,8 @@
+@import "./_content/_content.css";
+
+main {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+}

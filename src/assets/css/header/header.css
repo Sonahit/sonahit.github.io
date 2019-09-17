@@ -1,0 +1,13 @@
+@import "./_logo/_logo.css";
+@import "./_reservable/_reservable.css";
+
+header {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  -o-align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  position: relative;
+}

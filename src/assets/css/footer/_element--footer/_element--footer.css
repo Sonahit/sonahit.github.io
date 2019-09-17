@@ -1,0 +1,19 @@
+.footer_element--footer {
+  display: inline-flex;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer_element--footer {
+    width: auto;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_element--footer {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}

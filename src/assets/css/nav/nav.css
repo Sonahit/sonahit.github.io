@@ -1,0 +1,16 @@
+@import "./_container/_container.css";
+@import "./_drpble/_drpble.css";
+@import "./_element/_element.css";
+@import "./_link/_link.css";
+@import "./_list/_list.css";
+
+nav {
+  margin-left: auto;
+  margin-right: 40px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+nav ul > li {
+  list-style: none;
+}

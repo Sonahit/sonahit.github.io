@@ -1,0 +1,30 @@
+.footer_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+}
+
+.footer_info:first-child {
+  margin-left: 175px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer_info {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_info:first-child {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer_form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
