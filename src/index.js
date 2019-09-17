@@ -1,6 +1,6 @@
 //According to .popup-menu_button scaleY(X);
 import "./assets/css/index.css";
-import "./assets/logo.jpg";
+import "./assets/logo.png";
 
 let flip = -1;
 

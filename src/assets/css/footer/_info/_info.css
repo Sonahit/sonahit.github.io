@@ -9,6 +9,12 @@
   margin-left: 175px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .footer_info {
+    flex: 1 0 auto;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .footer_info {
     font-size: 12px;

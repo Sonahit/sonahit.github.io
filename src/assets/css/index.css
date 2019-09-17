@@ -23,6 +23,12 @@ body {
   }
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body {
+    float: none;
+  }
+}
+
 h1,
 h2,
 h3,

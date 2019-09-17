@@ -4,6 +4,13 @@
 @import "./_footer/_footer.css";
 @import "./_header/_header.css";
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .popup-menu {
+    right: 50%;
+    transform: translateX(50%);
+    -ms-transform: translateX(50%);
+  }
+}
 .popup-menu {
   display: flex;
 
