@@ -8,7 +8,6 @@ import "./assets/images/white_room.png";
 import "./assets/images/lock.png";
 import "./assets/images/nav_mob.png";
 
-const imageDir = "";
 let flip = -1;
 
 (function() {
