@@ -1,5 +1,3 @@
-@import "./_name/_name.css";
-
 .header_logo {
   margin-left: 40px;
   display: flex;
@@ -9,4 +7,20 @@
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
+}
+
+#logo {
+  display: block;
+}
+#logo_mob {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  #logo {
+    display: none;
+  }
+  #logo_mob {
+    display: block;
+  }
 }

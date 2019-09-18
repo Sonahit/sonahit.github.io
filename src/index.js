@@ -1,6 +1,7 @@
 //According to .popup-menu_button scaleY(X);
 import "./assets/css/index.css";
 import "./assets/images/logo.png";
+import "./assets/images/logo_mob.png";
 import "./assets/images/dining_room.png";
 import "./assets/images/walking.png";
 import "./assets/images/white_room.png";
