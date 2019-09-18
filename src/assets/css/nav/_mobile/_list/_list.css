@@ -1,0 +1,5 @@
+.nav_mobile_list {
+  display: flex;
+  flex: 2 1 auto;
+  flex-flow: column nowrap;
+}

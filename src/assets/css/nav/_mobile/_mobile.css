@@ -1,0 +1,24 @@
+@import "./_content/_content.css";
+@import "./_link/_link.css";
+@import "./_list/_list.css";
+
+.nav_mobile {
+  display: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .nav_mobile {
+    display: block;
+  }
+}
+
+.nav_mobile--listener {
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  right: 40%;
+}

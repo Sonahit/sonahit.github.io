@@ -1,0 +1,9 @@
+@import "./_dot/_dot.css";
+
+.main_slider--selection {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}

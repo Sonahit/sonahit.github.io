@@ -1,0 +1,32 @@
+.main_content_slider {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  transition: transform 0.7s;
+  transform: translateX(0);
+}
+
+.main_content_slider_holder {
+  position: relative;
+  min-width: 100%;
+  display: flex;
+}
+
+.main_content_slider_holder .img--sliding {
+  min-width: 100%;
+}
+
+.main_content_slider--0 {
+  transition: transform 0.7s;
+  transform: translateX(0);
+}
+
+.main_content_slider--1 {
+  transition: transform 0.7s;
+  transform: translateX(-100%);
+}
+
+.main_content_slider--2 {
+  transition: transform 0.7s;
+  transform: translateX(-200%);
+}

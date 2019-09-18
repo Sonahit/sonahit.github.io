@@ -1,0 +1,22 @@
+.footer_form_btn:active,
+.footer_form_btn:hover {
+  background-color: #e2d1a6;
+}
+
+.footer_form_btn {
+  display: block;
+  color: white;
+  border: none;
+  font-size: 24px;
+  text-align: center;
+  background: #000000;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_form_btn {
+    font-size: 20px;
+  }
+}

@@ -33,4 +33,7 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  .footer_info:first-child {
+    margin-left: 10px;
+  }
 }

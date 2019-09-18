@@ -9,6 +9,8 @@
     <title>Test task</title>
   </head>
   <body>
+    <!-- header -->
+    <!-- ------------ -->
     <header>
       <div class="header_logo">
         <img id="logo" alt="logo" src="./logo.png" style="width: 83px; height: 83px;" />
@@ -22,9 +24,12 @@
         <img
           alt="reservable"
           class="ic"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZT-A7i3IKCx7o8D5Zjro4egPiTJASTzlolwiqxGo8jA3DlX_R"
+          src="./lock.png"
         />
       </div>
+      <!-- ------------ -->
+      <!-- nav desktop -->
+      <!-- ------------ -->
       <nav>
         <ul class="nav_list">
           <li class="nav_link">
@@ -70,60 +75,228 @@
           </li>
         </ul>
       </nav>
+      <!-- ------------ -->
+      <!-- nav mobile -->
+      <!-- ------------ -->
+      <nav class="nav_mobile">
+        <img alt="navigation" class="nav_mobile--listener" src="./nav_mob.png">
+        <section class="nav_mobile_content--hidden">
+          <ul class="nav_mobile_list">
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">HOME</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">AZIENDA</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_container">
+                <a href="#">COLLEZIONI</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">NEWS</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">CONTATTI</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </nav>
     </header>
+    <!-- ------------ -->
+    <!-- main body -->
+    <!-- ------------ -->
     <main>
       <section class="main_content">
-        <section class="main_content_slider">
-          <img id="img--sliding" alt="home" src="https://specials-images.forbesimg.com/dam/imageserve/925730650/960x0.jpg" />
-          <div class="main_content_info">
-            <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            </p>
+        <!-- ------------ -->
+        <!-- slider -->
+        <!-- ------------ -->
+        <section class="main_content_slider main_content_slider--1">
+          <!-- ------------ -->
+          <!-- slider holder -->
+          <!-- ------------ -->
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./walking.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+            <section class="popup-menu popup-menu--0 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+          <!-- ------------ -->
+          <!-- slider holder -->
+          <!-- ------------ -->
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./dining_room.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+            <section class="popup-menu popup-menu--1 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+          <!-- ------------ -->
+          <!-- slider holder -->
+          <!-- ------------ -->
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./white_room.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+            <!-- ------------ -->
+            <!-- popup menu -->
+            <!-- ------------ -->
+            <section class="popup-menu popup-menu--2 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+        </section>
+        <section class="main_slider--selection">
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner"></div>
+          </div>
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner active"></div>
+          </div>
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner"></div>
           </div>
         </section>
-      </section>
-      <section class="popup-menu hidden">
-        <div class="popup-menu_element">
-          <div class="popup-menu_content">
-            <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            </p>
-          </div>
-          <div class="popup-menu_footer">
-            <p class="important transparent">
-              Approfondisci
-            </p>
-          </div>
-        </div>
-        <div class="popup-menu_element">
-          <div class="popup-menu_content">
-            <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            </p>
-          </div>
-          <div class="popup-menu_footer">
-            <p>
-              Approfondisci
-            </p>
-          </div>
-        </div>
-        <div class="popup-menu_element">
-          <div class="popup-menu_content">
-            <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            </p>
-          </div>
-          <div class="popup-menu_footer">
-            <p>
-              Approfondisci
-            </p>
-          </div>
-        </div>
-        <div class="popup-menu_button"></div>
       </section>
     </main>
     <footer>
@@ -203,26 +376,45 @@
         </div>
       </section>
     </footer>
+    <!-- ------------ -->
+    <!-- modal block -->
+    <!-- ------------ -->
     <section class="modal--hidden">
       <section class="modal_outer"></section>
       <section class="modal_inner">
         <span class="modal_exit">X</span>
+        <h1 class="modal_inner_header">AREA RISERVATA</h1>
         <section class="modal_content">
-          <p>
-            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab
-            illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur
-            aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem
-            ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam
-            aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-            ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel
-            illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis
-            praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident,
-            similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-            expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat,
-            facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-            necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
-            delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-          </p>
+            <section class="modal_login">
+              <form class="modal_form">
+                <h2>ACCEDI</h2>
+                <input type="email" placeholder="E-mail" />
+                <input type="password" placeholder="Password" />
+                <input class="modal_form_btn" type="submit" value="ACCEDI" />
+                <div class="modal_form--notify">
+                  <span> Password dimentiacata </span>
+                </div>
+              </form>
+            </section>
+            <section class="modal_registration">
+              <form class="modal_form">
+                <h2>REGISTRATI</h2>
+                <input type="name" placeholder="Nome" />
+                <input type="text" placeholder="Cognome" />
+                <input type="email" placeholder="E-mail" />
+                <input type="password" placeholder="Password" />
+                <div class="modal_form--agreement">
+                  <input type="checkbox" /> 
+                  <span>Acconsento al trattamento dei dati</span>
+                </div>
+                <div class="modal_form--agreement">
+                  <input type="checkbox" />
+                  <span>Mi iscrivo alla Newsletter</span>
+                </div>
+                <input class="modal_form_btn" type="submit" value="ISCRIVITI" />
+              </form>
+            </section>
+          </section>
         </section>
       </section>
     </section>

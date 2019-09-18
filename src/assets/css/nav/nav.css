@@ -3,6 +3,7 @@
 @import "./_element/_element.css";
 @import "./_link/_link.css";
 @import "./_list/_list.css";
+@import "./_mobile/_mobile.css";
 
 nav {
   margin-left: auto;
@@ -13,4 +14,10 @@ nav {
 
 nav ul > li {
   list-style: none;
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    display: none;
+  }
 }

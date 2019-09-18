@@ -9,6 +9,7 @@
     right: 0;
   }
 }
+
 .popup-menu {
   display: flex;
 
@@ -16,15 +17,9 @@
   bottom: 0;
 
   flex-flow: row nowrap;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: white;
-
-  justify-content: space-evenly;
-  -o-justify-content: space-evenly;
-  -moz-justify-content: space-evenly;
-  -webkit-justify-content: space-evenly;
-  -ms-justify-content: space-evenly;
 
   transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -33,6 +28,13 @@
   -ms-transition: all 0.5s ease-in-out;
 
   z-index: 5;
+}
+
+@media screen and (max-width: 425px) {
+  .popup-menu {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 .popup-menu.hidden {

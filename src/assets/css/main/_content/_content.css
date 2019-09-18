@@ -1,12 +1,11 @@
 @import "./_header/_header.css";
 @import "./_info/_info.css";
+@import "./_slider/_slider.css";
 
 .main_content {
+  flex-direction: row;
+  overflow: hidden;
   z-index: 0;
   width: 100%;
   height: 100%;
-}
-
-.main_content img {
-  min-width: 100%;
 }

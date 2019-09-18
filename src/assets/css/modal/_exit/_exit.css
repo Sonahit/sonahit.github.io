@@ -4,6 +4,7 @@
   position: absolute;
   right: 1%;
   cursor: pointer;
+  z-index: 999;
 }
 
 .modal_exit:hover {

@@ -2,6 +2,10 @@
 @import "./_outer/_outer.css";
 @import "./_content/_content.css";
 @import "./_exit/_exit.css";
+@import "./_form/_form.css";
+@import "./_login/_login.css";
+@import "./_registration/_registration.css";
+
 .modal--visible {
   display: block;
 }

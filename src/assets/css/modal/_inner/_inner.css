@@ -1,3 +1,5 @@
+@import "./_header/_header.css";
+
 .modal_inner {
   position: absolute;
   top: 50%;
@@ -6,9 +8,14 @@
   background: rgb(39, 39, 39);
   opacity: 1;
   overflow: auto;
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   z-index: 3;
+}
+@media screen and (max-width: 425px) {
+  .modal_inner {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 788px) {

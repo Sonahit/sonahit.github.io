@@ -1,0 +1,16 @@
+.nav_mobile_link {
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+.nav_mobile_link a:hover,
+.nav_mobile_link a:focus {
+  color: #e0d2ad !important;
+  font-weight: bold;
+}
+
+.nav_mobile_link a:link,
+.nav_mobile_link a:visited {
+  color: white;
+  text-decoration: none;
+}

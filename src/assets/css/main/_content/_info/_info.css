@@ -10,9 +10,3 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
-@media screen and (max-width: 768px) {
-  .main_content_info {
-    font-size: 10px;
-  }
-}
