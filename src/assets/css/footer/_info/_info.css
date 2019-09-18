@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 1440px) {
+  .footer_info {
+    flex: 0 1 auto;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .footer_info {
     font-size: 12px;

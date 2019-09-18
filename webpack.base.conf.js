@@ -39,7 +39,7 @@ const baseConfig = {
         test: /\.(png|jpg|gif|svg)$/i,
         loader: "file-loader",
         options: {
-          name: "[name].[ext]"
+          name: "img/[name].[ext]"
         }
       }
     ]
