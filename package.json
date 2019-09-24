@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "base": "SET NODE_ENV=none && npx webpack --config ./webpack.base.conf.js --progress",
     "dev": "SET NODE_ENV=development && webpack-dev-server --config ./webpack.dev.conf.js ",
-    "prod": "SET NODE_ENV=production && npx webpack --config ./webpack.prod.conf.js --progress --production"
+    "prod": "SET NODE_ENV=production && npx webpack --config ./webpack.prod.conf.js --progress --production",
+    "start": "npm run prod"
   },
   "repository": {
     "type": "git",
