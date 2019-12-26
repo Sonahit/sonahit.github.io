@@ -909,20 +909,20 @@ button {
 }
 @media screen and (max-width: 375px) {
   .join-now__bubble.flower, .join-now__bubble.chat {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     top: 30%;
   }
   .join-now__bubble.heart {
     left: 10%;
   }
   .join-now__bubble.heart, .join-now__bubble.present {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
   }
   .join-now__bubble.send-flower, .join-now__bubble.genders, .join-now__bubble.translations, .join-now__bubble.languages {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
   .join-now__bubble.send-flower p, .join-now__bubble.genders p, .join-now__bubble.translations p, .join-now__bubble.languages p {
     font-size: 16px;

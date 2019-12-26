@@ -281,8 +281,8 @@
     @media screen and (max-width: 375px) {
       &.flower,
       &.chat {
-        width: $smallSize - 50px;
-        height: $smallSize - 50px;
+        width: $smallSize - 70px;
+        height: $smallSize - 70px;
         top: 30%;
       }
 
@@ -292,16 +292,16 @@
 
       &.heart,
       &.present {
-        width: $verySmall - 25px;
-        height: $verySmall - 25px;
+        width: $verySmall - 40px;
+        height: $verySmall - 40px;
       }
 
       &.send-flower,
       &.genders,
       &.translations,
       &.languages {
-        width: $mediumSize - 80px;
-        height: $mediumSize - 80px;
+        width: $mediumSize - 100px;
+        height: $mediumSize - 100px;
         p {
           font-size: 16px;
         }
