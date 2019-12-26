@@ -1,0 +1,322 @@
+@mixin text($font-size, $font-weight, $align: initial, $text-transform: initial) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  text-align: $align;
+  text-transform: $text-transform;
+}
+
+.top {
+  @media only screen and (max-width: 900px) {
+    &__logo {
+      &__text {
+        font-size: 40px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__logo {
+      &__container {
+        padding: 10px;
+      }
+      &__text {
+        font-size: 30px;
+      }
+      &__img {
+        width: 70%;
+      }
+    }
+    &__menu {
+      width: 70%;
+      &__element {
+        margin: 5px;
+        font-size: 16px;
+        width: 60%;
+        &_top {
+          img {
+            padding: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    &__logo {
+      &__text {
+        font-size: 28px;
+      }
+    }
+    &__menu {
+      &__element {
+        &_top {
+          img {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    &__logo {
+      &__text {
+        font-size: 25px;
+      }
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    &__logo {
+      &__text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.center {
+  &__registration {
+    @media only screen and (max-width: 1024px) {
+      &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+      }
+      &__header {
+        font-size: 60px;
+      }
+      &__header,
+      &__facebook,
+      &__delimiter,
+      &__form {
+        margin: 40px 0;
+      }
+
+      &__input {
+        margin-top: 20px;
+        height: 50px;
+        text-align: center;
+      }
+      &__input::placeholder {
+        position: relative;
+      }
+      &__input,
+      &__input::placeholder {
+        font-size: 20px;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      &__header {
+        margin: 10px 0;
+        font-size: 40px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    &__content {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &__couples:nth-child(even) {
+      grid-row: 2;
+    }
+    &__container {
+      grid-row: 1 / 3;
+      grid-column: 2;
+    }
+    &__container,
+    &__registration {
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__content {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 25px;
+    }
+    &__couple {
+      padding: 0;
+      img {
+        padding: 10px;
+      }
+    }
+    &__couples,
+    &__container {
+      justify-self: center;
+    }
+    &__couples:nth-child(even) {
+      grid-row: 1;
+    }
+    &__couples:nth-child(odd) {
+      grid-row: 3;
+    }
+
+    &__container {
+      width: 90%;
+      grid-row: 2;
+      grid-column: 1 / 3;
+    }
+  }
+}
+
+.join-now {
+  &__bubble {
+    @media screen and (max-width: 1300px) {
+      &.start {
+        width: $bigSize - 100px;
+        height: $bigSize - 100px;
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      &.flower,
+      &.chat {
+        width: $smallSize - 25px;
+        height: $smallSize - 25px;
+      }
+
+      &.heart,
+      &.present {
+        width: $verySmall - 25px;
+        height: $verySmall - 25px;
+      }
+
+      &.send-flower,
+      &.genders,
+      &.translations,
+      &.languages {
+        width: $mediumSize - 50px;
+        height: $mediumSize - 50px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      &.flower,
+      &.chat {
+        width: $smallSize - 25px;
+        height: $smallSize - 25px;
+      }
+
+      &.heart,
+      &.present {
+        width: $verySmall - 25px;
+        height: $verySmall - 25px;
+      }
+
+      &.send-flower,
+      &.genders,
+      &.translations,
+      &.languages {
+        width: $mediumSize - 50px;
+        height: $mediumSize - 50px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      &__button {
+        padding: 5px;
+        letter-spacing: initial;
+      }
+    }
+
+    @media screen and (max-width: 660px) {
+      & {
+        width: 50%;
+        height: 100%;
+      }
+
+      &.flower,
+      &.chat {
+        width: $smallSize - 50px;
+        height: $smallSize - 50px;
+        top: 30%;
+      }
+
+      &.heart {
+        left: 10%;
+      }
+
+      &.heart,
+      &.present {
+        width: $verySmall - 25px;
+        height: $verySmall - 25px;
+      }
+
+      &.send-flower,
+      &.languages {
+        top: 5%;
+      }
+
+      &.translations {
+        left: 95%;
+        top: 75%;
+      }
+
+      &.send-flower,
+      &.genders,
+      &.translations,
+      &.languages {
+        width: $mediumSize - 70px;
+        height: $mediumSize - 70px;
+        p {
+          font-size: 16px;
+        }
+      }
+
+      &.start {
+        width: $bigSize - 150px;
+        height: $bigSize - 150px;
+        p {
+          font-size: 20px;
+        }
+        button {
+          font-size: 12px;
+          padding: 5px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 375px) {
+      &.flower,
+      &.chat {
+        width: $smallSize - 50px;
+        height: $smallSize - 50px;
+        top: 30%;
+      }
+
+      &.heart {
+        left: 10%;
+      }
+
+      &.heart,
+      &.present {
+        width: $verySmall - 25px;
+        height: $verySmall - 25px;
+      }
+
+      &.send-flower,
+      &.genders,
+      &.translations,
+      &.languages {
+        width: $mediumSize - 80px;
+        height: $mediumSize - 80px;
+        p {
+          font-size: 16px;
+        }
+      }
+
+      &.start {
+        width: $bigSize - 175px;
+        height: $bigSize - 175px;
+        p {
+          font-size: 20px;
+        }
+        button {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

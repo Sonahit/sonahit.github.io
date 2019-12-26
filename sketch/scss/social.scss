@@ -11,12 +11,17 @@
   &.hide {
     transform: translate(-100%, 0);
   }
-
+  &__link {
+    cursor: pointer;
+  }
   &__button {
     padding: 7px;
     margin-left: 3px;
     z-index: 2;
     background-color: rgb(69, 18, 76);
+    &:hover {
+      background-color: rgb(122, 32, 134);
+    }
   }
 
   &__button.hide {

@@ -37,13 +37,6 @@
     display: flex;
   }
 
-  &__couples:nth-child(even) {
-    padding-bottom: 10%;
-  }
-  &__couples:nth-child(odd) {
-    padding-top: 10%;
-  }
-
   &__welcome {
     display: flex;
     flex-direction: column;
@@ -118,6 +111,11 @@
       letter-spacing: 1.5px;
       overflow: hidden;
       cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+        transition: all 0.5s;
+        background-color: rgb(69, 122, 236);
+      }
 
       &_icon {
         align-self: center;
