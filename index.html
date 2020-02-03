@@ -1,38 +1,413 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Test</title>
-    <style>
-      main {
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      div {
-        padding: 10px;
-      }
-
-      div a::after {
-        content: "|";
-        margin: 5px;
-      }
-      div a:last-child::after {
-        content: "";
-      }
-    </style>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test task</title>
+  <link href="css/2.6b495e44150f83fee7e9.css?6b495e44150f83fee7e9" rel="stylesheet"></head>
   <body>
-    <main>
-      <h2>Projects</h2>
-      <div>
-        <a href="slider/index.html">Slider</a>
-        <a href="sketch/index.html">PSD Sketch</a>
+    <!-- header -->
+
+    <header>
+      <div class="header_logo">
+        <img id="logo" alt="logo" src="./img/logo.png" />
+        <img id="logo_mob" alt="logo" src="./img/logo_mob.png" />
       </div>
+      <div class="header_reservable">
+        <span>AREA RISERVATA</span>
+        <img alt="reservable" class="ic" src="./img/lock.png" />
+      </div>
+
+      <!-- nav desktop -->
+
+      <nav>
+        <ul class="nav_list">
+          <li class="nav_link">
+            <div class="nav_container">
+              <a href="#">HOME</a>
+            </div>
+          </li>
+          <li class="nav_link nav_drpble">
+            <div class="nav_container">
+              <a href="#">AZIENDA</a>
+            </div>
+            <div class="nav_container_drpble">
+              <ul>
+                <li class="nav_element_drpble">
+                  <a href="#">STORIA</a>
+                </li>
+                <li class="nav_element_drpble">
+                  <a href="#">MM DESIGN</a>
+                </li>
+                <li class="nav_element_drpble">
+                  <a href="#">DESIGNER</a>
+                </li>
+                <li class="nav_element_drpble">
+                  <a href="#">CERTIFICAZIONI</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav_link">
+            <div class="nav_container">
+              <a href="#">COLLEZIONI</a>
+            </div>
+          </li>
+          <li class="nav_link">
+            <div class="nav_container">
+              <a href="#">NEWS</a>
+            </div>
+          </li>
+          <li class="nav_link">
+            <div class="nav_container">
+              <a href="#">CONTATTI</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- nav mobile -->
+
+      <nav class="nav_mobile">
+        <img alt="navigation" class="nav_mobile--listener" src="./img/nav_mob.png" />
+        <section class="nav_mobile_content--hidden">
+          <ul class="nav_mobile_list">
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">HOME</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">AZIENDA</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_container">
+                <a href="#">COLLEZIONI</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">NEWS</a>
+              </div>
+            </li>
+            <li class="nav_mobile_link">
+              <div class="nav_mobile_container">
+                <a href="#">CONTATTI</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <!-- main body -->
+
+    <main>
+      <section class="main_content">
+        <!-- slider -->
+
+        <section class="main_content_slider main_content_slider--1">
+          <!-- slider holder -->
+
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./img/walking.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+            <section class="popup-menu popup-menu--0 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+
+          <!-- slider holder -->
+
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./img/dining_room.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+            <section class="popup-menu popup-menu--1 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+
+          <!-- slider holder -->
+
+          <section class="main_content_slider_holder">
+            <img class="img--sliding" alt="home" src="./img/white_room.png" />
+            <div class="main_content_info">
+              <h1 class="main_content_header"><em>LAMPADATI CONTEMPRORANEI</em></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+            </div>
+
+            <!-- popup menu -->
+
+            <section class="popup-menu popup-menu--2 hidden">
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Stai pensando ad un progetto?</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p class="important transparent">
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Vi aspelliamo alla fiera Euroluce</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_element">
+                <div class="popup-menu_content">
+                  <h1 class="popup-menu_header">Scorpi la nuova collezione</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </p>
+                </div>
+                <div class="popup-menu_footer">
+                  <p>
+                    Approfondisci
+                  </p>
+                </div>
+              </section>
+              <section class="popup-menu_button"></section>
+            </section>
+          </section>
+        </section>
+        <section class="main_slider--selection">
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner"></div>
+          </div>
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner active"></div>
+          </div>
+          <div class="main_slider_dot--outer">
+            <div class="main_slider_dot--inner"></div>
+          </div>
+        </section>
+      </section>
     </main>
-  </body>
+    <!-- footer -->
+    <footer>
+      <section class="footer_info">
+        <article class="footer_tab">
+          <div class="footer_tab_header"><h2>LLAMPADARA MADE IN ITALY</h2></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          </p>
+        </article>
+        <article class="footer_tab">
+          <div class="footer_tab_header"><h2>LLAMPADARA MADE IN ITALY</h2></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          </p>
+        </article>
+        <article class="footer_tab">
+          <div class="footer_tab_header"><h2>LLAMPADARA MADE IN ITALY</h2></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          </p>
+        </article>
+        <div class="footer_element--footer">
+          <div class="footer_address">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="footer_contact">
+        <div class="footer_form">
+          <div class="footer_tab_header">
+            <h2>
+              LLAMPADARA MADE IN ITALY
+            </h2>
+          </div>
+          <form id="send">
+            <input name="name" type="text" placeholder="Name e Cognome" />
+            <input name="email" type="email" placeholder="Email" />
+            <div class="footer_form--agreement">
+              <input type="checkbox" />
+              <span>Acconsento al trattamento dei dati</span>
+            </div>
+            <input class="footer_form_btn" type="submit" value="ISCRIVITI" />
+          </form>
+        </div>
+        <div class="footer_element--footer">
+          <div class="footer_links">
+            <a href="#">
+              <img alt="facebook" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/facebook-icon-18-256.png" class="ic" />
+            </a>
+            <a href="#">
+              <img
+                alt="instagram"
+                src="https://www.seekpng.com/png/small/1-13633_instagram-png-instagram-icon-transparent-background-instagram-logo.png"
+                class="ic"
+              />
+            </a>
+            <a href="#">
+              <img
+                alt="pinterest"
+                src="https://www.trzcacak.rs/myfile/full/38-386116_pinterest-icon-png-white-wwwpixsharkcom-images-types-of.png"
+                class="ic"
+              />
+            </a>
+          </div>
+          <div class="footer_langs">
+            <span class="footer_lang">ITA</span>
+            <span class="footer_lang">ENG</span>
+            <span class="footer_lang">DEU</span>
+            <span class="footer_lang">RUS</span>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- modal block -->
+
+    <section class="modal--hidden">
+      <section class="modal_outer"></section>
+      <section class="modal_inner">
+        <span class="modal_exit">X</span>
+        <h1 class="modal_inner_header">AREA RISERVATA</h1>
+        <section class="modal_content">
+          <section class="modal_login">
+            <form class="modal_form">
+              <h2>ACCEDI</h2>
+              <input type="email" placeholder="E-mail" />
+              <input type="password" placeholder="Password" />
+              <input class="modal_form_btn" type="submit" value="ACCEDI" />
+              <div class="modal_form--notify">
+                <span> Password dimentiacata </span>
+              </div>
+            </form>
+          </section>
+          <section class="modal_registration">
+            <form class="modal_form">
+              <h2>REGISTRATI</h2>
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="Cognome" />
+              <input type="email" placeholder="E-mail" />
+              <input type="password" placeholder="Password" />
+              <div class="modal_form--agreement">
+                <input type="checkbox" />
+                <span>Acconsento al trattamento dei dati</span>
+              </div>
+              <div class="modal_form--agreement">
+                <input type="checkbox" />
+                <span>Mi iscrivo alla Newsletter</span>
+              </div>
+              <input class="modal_form_btn" type="submit" value="ISCRIVITI" />
+            </form>
+          </section>
+        </section>
+      </section>
+    </section>
+  <script type="text/javascript" src="runtime.6b495e44150f83fee7e9.bundle.js?6b495e44150f83fee7e9"></script><script type="text/javascript" src="styles.6b495e44150f83fee7e9.bundle.js?6b495e44150f83fee7e9"></script><script type="text/javascript" src="app.6b495e44150f83fee7e9.bundle.js?6b495e44150f83fee7e9"></script></body>
 </html>
